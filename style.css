@@ -865,6 +865,10 @@ body{
     font-size: 100% !important;
 }
 
+.textos--color{
+    color: black;
+}
+
 /* MODS */
 
 .mods{
