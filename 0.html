@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="header">
+
+        <h1 class="header__titulo">ZOMBIFIED</h1>
+
+    </section>
+
+    <div class="boxTexto">
+
+            <p class="textos">Nadie estaba preparado para lo que ocurrió. Al principio fueron solo rumores: ataques aislados, gente actuando de forma extraña, zonas acordonadas por el gobierno. Pero en cuestión de días, el virus se propagó sin control. Te encontraste atrapado en medio del caos. La ciudad, antes llena de vida, ahora es un campo de batalla entre los vivos y los muertos. No hay electricidad, el agua está cortada y las fuerzas del orden se han desbordado. ¿Qué eliges? </p>
+
+    </div>
+
+    <section>
+        <div class="carruselContainer__decision">
+
+            <div class="carrusel__historia">
+                <img class="img--size" src="imgABC/ciudad.png" alt="Ciudad">
+                <div class="b__boxCarrusel--size">
+                    <p class="textos">Decides no abandonar la ciudad todavía: aquí es donde están los recursos… y también las mayores amenazas. Tomas aire y te preparas para moverte. </p>
+                    <a href="1.html"><button class="boton"><img class="boton--img" src="imgABC/mano.png" alt="Mano"></button></a>
+                </div>        
+            </div>
+
+            <div class="carrusel__historia">
+                <img class="img--size" src="imgABC/bosque.png" alt="Bosque">
+                <div class="b__boxCarrusel--size">
+                    <p class="textos">La ciudad es una trampa. Demasiados zombis, demasiado ruido. Decides escapar y dirigirte hacia el bosque, donde puede haber silencio, refugio y menos peligros… o eso esperas.</p>
+                    <a href="2.html"><button class="boton"><img class="boton--img" src="imgABC/mano.png" alt="Mano"></button></a>
+                </div>
+            </div>
+
+            <div class="carrusel__historia">
+                <img class="img--size" src="imgABC/militares.png" alt="Militares">
+                <div class="b__boxCarrusel--size">
+                    <p class="textos">Circulan rumores de que el ejército ha establecido una zona segura, dicen que tienen comida,
+                        medicinas y refugios. Aunque también se dice que están deteniendo a la gente por miedo al contagio. Quizás sea tu mejor oportunidad.</p>
+                    <a href="3.html"><button class="boton"><img class="boton--img" src="imgABC/mano.png" alt="Mano"></button></a>
+                </div>
+            </div>
+
+            <div class="b">
+                <a class="boton" onclick="plusSlides(-1)"><img class="boton--img" src="imgABC/flecha-izq.png" alt="Flecha"></a>
+                <a class="boton" onclick="plusSlides(1)"><img class="boton--img" src="imgABC/flecha-der.png" alt="Flecha"></a>
+            </div>
+        </div>
+        <br>
+
+                <div class="carrusel__puntos">
+                    <span class="punto__carrusel--size" onclick="currentSlide(1)"></span>
+                    <span class="punto__carrusel--size" onclick="currentSlide(2)"></span>
+                    <span class="punto__carrusel--size" onclick="currentSlide(3)"></span>
+                </div>
+
+    </section>
+
+    <footer class="footer footer--margin">
+
+        <div class="footer__gridContainer">
+
+            <img class="footer__logo" src="Imagenes elementos comunes/logo2.png" alt="logo">
+
+            <div class="footer__column">
+                <ul>
+                    <li><a href="contact.html">Contacta</a></li>
+                    <li><a href="reseñas.html">Reseñas</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer__column">
+                <ul>
+                    <li><a href="mods.html">My MODS</a></li>
+                    <li><a href="cuenta.html">My Zombie</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer__column">
+                <ul>
+                    <li><a href="dlc.html">DLC</a></li>
+                    <li><a href="actualizaciones.html">Actualizaciones</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer__column">
+                    <ul>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
+                    </ul>
+            </div>
+
+            <img class="footer__logo footer__logo--derecha" src="Imagenes elementos comunes/logo2.png" alt="logo">
+
+        </div>
+
+        <div class="footer__bottom">
+            <p>Copyright © ZOMBIFIED 2025</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="carrusel.js"></script>
+
+</body>
+</html>
